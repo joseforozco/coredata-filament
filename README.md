@@ -57,4 +57,62 @@ Este repositorio es **estructural**, no operativo.
 
 ## 🗂️ Estructura del repositorio
 
+coredata-filament/
+├── Database/
+│ ├── Migrations/
+│ └── Seeders/
+└── README.md
 
+
+---
+
+## ⚙️ Uso previsto
+
+Este repositorio está diseñado para ser **consumido por scripts de automatización**, no para ejecutarse manualmente.
+
+Flujo típico:
+
+1. Crear un nuevo proyecto Laravel
+2. Copiar o clonar este repositorio dentro del proyecto, por ejemplo:
+
+Modules/CoreData
+
+3. Ejecutar las migraciones
+4. Ejecutar los seeders
+
+---
+
+## 🔁 Versionado
+
+Los datos incluidos son **mayormente inmutables**.  
+El versionado, cuando exista, responde a cambios en:
+
+- Estructura de tablas
+- Compatibilidad con Laravel / PHP
+- Ajustes técnicos, no semánticos
+
+No se persigue versionado fino.
+
+---
+
+## 🧠 Filosofía
+
+- Simple
+- Reutilizable
+- Predecible
+- Sin dependencias innecesarias
+- Pensado para crecer, no para complicar
+
+---
+
+## 📄 Licencia
+
+Uso libre para proyectos personales o empresariales.  
+Ajusta este apartado según tus necesidades reales.
+
+---
+
+## 📌 Nota final
+
+Este repositorio es un **bloque de construcción**, no un producto final.  
+Su valor está en la **consistencia que aporta a múltiples proyectos**.
